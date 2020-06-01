@@ -29,7 +29,7 @@ variable "app_service_name_prefix" {
 }
 
 resource "random_integer" "app_service_name_suffix" {
-  min = 1000
+  min = 5000
   max = 9999
 }
 
